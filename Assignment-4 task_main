@@ -1,0 +1,13 @@
+package Sunjida; 
+public class Main { 
+public static void main(String[] args) {
+
+   Player a = new player (" Shakib ", 75);
+   Cricket b = new Cricket("International match",20,a); 
+   b.display();
+   Football c = new Football();
+   }
+}
+
+
+/* Sunjida Akter  ID-2012020347(G) cse_2012020347@lus.ac.bd 16/09/21 */
