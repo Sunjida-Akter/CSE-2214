@@ -1,6 +1,9 @@
+/* Constructor and Method Overloading */
+
 class Samsung {
-    int camera,call_feature,internet;	
-    Samsung() {	
+    int camera, call_feature, internet;	
+    Samsung() 
+    {	
 					
     camera=8;		 	
     call_feature=34; 			
@@ -16,19 +19,19 @@ class Samsung {
     this.call_feature=call_feature;
     System.out.println( "Contact Number:" + call_feature); 		
     this.internet=internet; 		
-    System.out.println( "internet speed: " + internet); 
+    System.out.println( "internet speed:" + internet); 
     } 
 }
-public class Task1 { 
+public class Task_1 { 
 public static void main(String[] args) {	
 	
     Samsung mobile1;
     mobile1=new Samsung();				
-    System.out.println( "\n");		 		
+    System.out.println("\n");		 		
     Samsung mobile2;		
     mobile2=new Samsung(12,013,3);				
-    System.out.println( "\n");	
+    System.out.println("\n");	
     Samsung mobile3;		
     mobile3=new Samsung(5,015,2);	
-	}	
+    }	
 }
