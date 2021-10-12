@@ -1,0 +1,9 @@
+package Sunjida; 
+public class Football extends Sports {
+
+Football() {
+super(); 
+System.out.println("Football is called"); 
+}}
+
+/* Sunjida Akter  ID-2012020347(G) cse_2012020347@lus.ac.bd 16/09/21 */
