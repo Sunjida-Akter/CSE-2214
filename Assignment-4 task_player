@@ -1,0 +1,13 @@
+package Sunjida;
+public class Player { 
+
+String playerName; 
+int jerseyNumber; 
+Player(String name,int num) 
+{ 
+this. playerName = name; 
+this. jerseyNumber=num;
+} }
+
+
+/* Sunjida Akter  ID-2012020347(G) cse_2012020347@lus.ac.bd 16/09/21 */
