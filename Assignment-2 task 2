@@ -1,1 +1,44 @@
+package task2;
+public class task2 { 	
+public static void main(String[] args) {
 
+  Booktry Book1= new Booktry();
+    Book1.title=”JAVA for Beginners”;
+    Book1.author=”Prof. David”;
+    Book1.edition="3th";
+    Book1.page=537;
+    Book1.price=299;
+    Book1.publication=”Easy Coding Publications”;
+    Book1.showInfo();
+
+  Booktry Book2= new Booktry(); 
+    Book2.title=”Omega Point”;   
+    Book2.author=”Humayun Ahmed”;     
+    Book2.edition="12th";        
+    Book2.page_num=122;             
+    Book2.price=128;            
+    Book2.publication=”Shomoy Prokashoni”;
+    Book2.showInfo(); 
+
+  Booktry Book3= new Booktry();             
+    Book3.title=”Digital Fortress”;           
+    Book3.author=”Dan Brown”;                
+    Book3.edition=”5th”;           
+    Book3.page_num=356;                      
+    Book3.price=520;            
+    Book3.publication=”St. Martin Press”;      
+    Book3.showInfo();                  
+          
+  System.out.println(Book1); 
+  System.out.println(Book2);                           
+  System.out.println(Book3);                   
+  System.out.println(“ \n “);          
+    Book1=Book3;                          
+    Book1.edition = “1”;             
+    Book3.showInfo();             
+  System.out.print(“\n”);    
+  System.out.println(Book1); 
+  System.out.println(Book2);   
+  System.out.println(Book3);
+} 
+                           
