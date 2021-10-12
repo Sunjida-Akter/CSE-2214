@@ -1,0 +1,27 @@
+/*JAVA program that reads 10 numbers from the user, then prints out how many positive numbers 
+and negative numbers user has entered (consider 0 a positive number)*/
+
+import java.util.Scanner;
+public class Task2 { 	
+public static void main(String[] args) {
+		 
+int positive=0, negative=0, zero=0, i;
+int arr[] = new int[10];	
+Scanner scan = new Scanner(System.in);	
+			 
+System.out.print("Enter 10 Numbers : ");
+
+for(i=0; i<10; i++){	
+arr[i] = scan.nextInt();	
+}	 
+for(i=0; i<10; i++){	
+if(arr[i] < 0){	 
+negtive++;	
+}	 
+else if(arr[i] >= 0)	 {	 
+positive++;	 
+}}				
+ 
+System.out.print(positive + " Positive Numbers");
+System.out.print("\n" + nagetive + " Negative Numbers");
+} }
