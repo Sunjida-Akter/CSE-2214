@@ -1,3 +1,16 @@
+class Booktry { 
+   String title, edition, author, publication; 
+   int page, price;
+   void showInfo() { 
+     System.out.println("Book Name: "+title);
+     System.out.println("Writer name: "+author);
+     System.out.println("Edition: "+edition); 
+     System.out.println("Number of Pages: "+page);
+     System.out.println("Book Price: "+price);
+     System.out.println("Publishers: "+publication);
+     }
+}
+
 package task2;
 public class task2 { 	
 public static void main(String[] args) {
@@ -40,5 +53,6 @@ public static void main(String[] args) {
   System.out.println(Book1); 
   System.out.println(Book2);   
   System.out.println(Book3);
+  }
 } 
                            
