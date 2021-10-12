@@ -1,1 +1,15 @@
+package test_java;
+public class Booktry {
 
+  String title, author, publication;
+  int page, edition, price;		
+  void showInfo()
+  {
+    System.out.println("Book Name: "+title);		
+    System.out.println("Writer name: "+author);		
+    System.out.println("Edition: "+edition);
+    System.out.println("Number of Pages: "+page);
+    System.out.println("Book Price: "+price);		
+    System.out.println("Publishers: "+publication);	
+  }
+}
