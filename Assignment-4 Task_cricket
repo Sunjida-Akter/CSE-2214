@@ -1,0 +1,23 @@
+package Sunjida;
+public class Cricket extends Sports {	
+ 
+ String matchType;
+ int over, jerseyNumber; 
+ String playerName; 
+ Cricket(String matchType, int over, int num, String playerName)        
+ {
+ this. matchType = matchType;
+ this. over = over; 
+ this. playerName = playerName;
+ this. JerseyNumber = num;
+ }
+ 
+public void display() { 
+System.out.println("matchType=" + matchType);
+System.out.println("over=" + over);
+System.out.println("playerName=" + playerName);
+System.out.println("JerseyNumber=" + num)
+} }
+
+
+/* Sunjida Akter  ID-2012020347(G) cse_2012020347@lus.ac.bd 16/09/21 */
