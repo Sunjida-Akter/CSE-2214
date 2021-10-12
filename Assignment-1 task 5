@@ -1,0 +1,26 @@
+/*Write a JAVA program that first reads an integer n from the user, then reads another n integers and stores 
+them into an array. Finally, it will ask for another integer p from the user and find the occurrences of p in the 
+array. Use enhanced for-loop to search through the array.*/
+
+import java.util.Scanner;
+public class Task5 {
+public static void main(String[] args) {
+
+Scanner scan=new Scanner(System.in);
+int n; 	 
+System.out.print("Enter the number of elements:");
+n=scan.nextInt(); 	 
+int arr[]=new int[n]; 	 
+System.out.print("Enter the "+n+" of the array:");
+	 
+for(int i=0; i<n ;i++) {	 
+arr[i]=scan.nextInt(); }	
+System.out.print("Enter the Number to Search:");
+int number=scan.nextInt();	 
+int repeat=0;	 
+for(int i=0;i<n;i++) {	 
+if(number==arr[i]){	 
+repeat++; 	 
+} }	 	 
+System.out.println(number+" occurred "+repeat+" times in array ");
+}}
